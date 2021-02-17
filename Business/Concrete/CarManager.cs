@@ -39,7 +39,7 @@ namespace Business.Concrete
             //iş kodları yazılır.
             //yetkisi var mı?
 
-            if (DateTime.Now.Hour==22)
+            if (DateTime.Now.Hour == 18)
             {
                 return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
             }
